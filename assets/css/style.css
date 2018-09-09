@@ -1,0 +1,56 @@
+
+.video-icon{
+    background-image: url(../image/connor.jpg);
+    background-color: #ddd;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 70%;
+    width: 43%;
+    box-shadow: 0px 0px 20px 3px;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+.play-btn{
+    position: absolute;
+    right: -35px;
+    top: 50%;
+    height: 70px;
+    width: 70px;
+    background: green;
+    font-size: 20px;
+    line-height: 70px;
+    border-radius: 50%;
+    padding-left: 30px;
+    margin-top: -50px;
+    color: #fff;  
+}
+
+.check-icon li{
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 700;
+}
+.check-icon li::before{
+    font-family: fontAwesome;content: "\f00c";
+    padding-right: 15px;
+    color: green;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.text{
+    margin-top: 200px;
+}
+.text p{
+    font-size: 14px;
+    line-height: 2;
+}
+.text h2{
+    font-size: 22px;
+    font-weight: bold;
+}
